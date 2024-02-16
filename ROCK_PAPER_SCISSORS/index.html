@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper scissors</h1>
+    <div class="app">
+
+        <div class="display">
+            <div class="choice">
+                <h2>Computer Choice</h2>
+                <span id="computer-choice" class="choice-img">
+                    <img src="./images/paper.png" alt="" id="computer-item" class="item">
+                </span>
+            </div>
+            <div class="choice">
+                <h2>User Choice</h2>
+                <span id="user-choice" class="choice-img">
+                    <img src="./images/rock.png" alt="" id="user-item" class="item">
+                </span>
+            </div>  
+        </div>
+        <div class="result">
+            <h2>Result</h2>
+            <div id="resultDisplay"></div>
+        </div>
+        <div class="btn-grp">
+            <button id="rock">rock</button>
+            <button id="paper">paper</button>
+            <button id="scissors">scissor</button>
+        </div>
+    
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
